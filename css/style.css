@@ -1,0 +1,836 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:  'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: #24282b;
+    color: white;
+    border-bottom: 4px solid #1293D4 ;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around
+}
+hr{
+    border-color: #1293D4;
+    
+}
+
+ul li{
+    display: inline;
+    
+   
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+span{
+    color: #1293D4 ;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+section{
+    display: flex;
+    background: url(../images/cabecera.jpg) 0 -400px;
+    flex-direction: column;
+    height: 400px;
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+h1{
+    text-align:justify;
+}
+
+footer{
+    display: flex;
+    background-color:#1293D4  ;
+    color: white;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.texto{
+    font-size: 50px;
+    color: white;
+}
+.ContenedorMedio{
+    display: flex;
+    background-color:#24282b;
+    color: white;
+    height: 65px;
+    align-items: center;
+    justify-content: space-around
+    
+
+}
+
+.ContenedorMediobajo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    height: 325px;
+    text-align: center;
+    margin: 28px;
+}
+.buttom{
+    color:white;
+    background-color: rgb(241, 75, 46);
+    border: none;
+    height: 34px;
+    width: 100px;
+}
+.buttom2{
+    color:white;
+    background-color: rgb(241, 75, 46);
+    border: none;
+    height: 34px;
+    width: 752px;
+}
+.formulario{
+    font-size: 20px;
+}
+
+.contenedor{
+    height: 34px;
+    width: 230px;
+}
+
+.contenedor1{
+    height: 45px;
+    width: 752px;
+}
+
+.text{
+    
+    padding: 13px;
+    font-size: 17px;
+    text-align: justify;
+}
+.cajahorizontal{
+    display: flex;
+    align-content: space-around;
+    background-color:#35424a ;
+    color: white;
+    text-align: justify;
+    padding: 13px;
+    width:1080px;
+    font-size: 17px;
+    
+}
+.cajahorizontalblanca{
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+    background-color:#ffffff ;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    padding: 13px;
+    width:1088px;
+    font-size: 17px;
+    
+}
+img{
+    width: 148px;
+    height: 138px;
+
+}
+aside{
+    width: 418px;
+    height: 248px;
+    padding: 18px;
+    background-color: #35424a;
+    color: white;
+    font-size: 17px;
+}
+.titulo_imagen{
+    font-size: 80px;
+}
+
+.suscribete{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 28px;
+    color: white;
+    border: 1px solid rgb(36, 40, 43);
+    height: 94px;
+    background-color: rgb(36, 40, 43);
+}
+
+
+
+.gris{
+    background-color: rgb(231, 231, 231);
+    color: black;
+    padding: 15px;
+    width: 96%;
+}
+
+.izquierda{
+    margin: 0 -180px 0 0;
+}
+
+.img{
+    width: 79%;
+ 
+}
+
+.derecha{
+    
+    color: white;
+    padding: 15px;
+}
+.derecha1{
+    background-color: rgb(53, 66, 74);
+    color: white;
+    padding: 15px;
+}
+.derecha2{
+    background-color: rgb(53, 66, 74);
+    color: white;
+    padding: 15px;
+}
+.borde_header{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(18, 147, 212);
+}
+.titulo_imagen{
+    font-size: 80px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 92px;
+    align-items: flex-start;
+    height: 72vh;
+    justify-content: space-around;
+}
+
+
+.formulario input{
+
+    width: 100%;
+    height: 40px;
+}
+
+.imgNosotros{
+    width: 1081px;
+    height: 218px;
+}
+
+textarea{
+    width: 100%;
+    height: 210px;
+}
+
+.formulario{
+    width: 60%;
+}
+
+.formulario button{
+    width: 100%;
+}
+.enviar{
+    text-align: center;
+    color: white;
+    background-color: rgb(232, 73, 29);
+    width: 703px;
+    height: 43px;
+    border: none;
+}
+
+
+.QH{
+    background-color: rgb(53, 66, 74);
+    color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.ubi img{
+    width: 345px;
+    height: 323px;
+
+}
+
+.oscuro{
+    background-color: rgb(53, 66, 74);
+    color: white;
+    padding: 15px;
+    width: 76%;
+}
+
+.izquierda{
+    margin: 0 -180px 0 0;
+}
+
+.img{
+    width: 79%;
+ 
+}
+
+
+
+/* /* MEDIA QUERIES  */
+
+
+@media(max-width:1200px){
+    img{
+        width: 148px;
+        height: 138px;
+
+    }
+    
+    .text{
+        font-size: 15px;
+        text-align: justify;
+    }
+    
+    .formulario{
+        width:40%;
+    }
+    .info{
+        display: flex;
+        flex-direction: row;
+        padding: 10px 92px;
+        align-items: flex-start;
+        height: 72vh;
+        justify-content: space-around;
+        
+    }
+    .cajahorizontalblanca{
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        background-color:#ffffff ;
+        color: rgb(0, 0, 0);
+        text-align: justify;
+        padding: 13px;
+        width:90%;
+        font-size: 17px;
+        
+    }
+    .cajahorizontal{
+        display: flex;
+        align-content: space-around;
+        background-color:#35424a ;
+        color: white;
+        text-align: justify;
+        padding: 13px;
+        width:90%;
+        font-size: 17px;
+        
+    }
+
+   .imgNosotros{
+        width: 90%;
+    }
+    .gris{
+        background-color: rgb(231, 231, 231);
+        color: black;
+        padding: 15px;
+        width: 81%;
+    }
+    
+    .img{
+        width: 92%;
+    }
+    
+    .derecha2{
+        background-color: rgb(53, 66, 74);
+        color: white;
+        padding: 12px;
+        width: 311px;
+        height: 258px;
+        text-align: justify;
+    }
+    
+    .input input{
+    
+        width: 598px;
+        height: 40px;
+    }
+    
+    .mensaje input{
+        height: 125px;
+        width: 597px;
+    }
+    .enviar{
+        text-align: center;
+        color: white;
+        background-color: rgb(232, 73, 29);
+        width: 595px;
+        height: 43px;
+        border: none;
+    }
+    
+    .derecha1{
+        background-color: rgb(53, 66, 74);
+        color: white;
+        padding: 15px;
+
+    }
+    textarea{
+        width: 408px;
+        height: 170px;
+    }
+    .QH{
+        background-color: rgb(53, 66, 74);
+        color: white;
+        padding: 15px;
+        font-size: 14px;
+        width: 100%;
+        height: 266px;
+    }
+    
+    .ubi img{
+        width: 340px;
+        height: 269px;
+    
+    }
+    
+    .oscuro{
+        background-color: rgb(53, 66, 74);
+        color: white;
+        padding: 15px;
+        width: 92%;
+    }
+}    
+
+@media(max-width:992px){
+
+    img{
+        width: 148px;
+        height: 138px;
+
+    }
+
+    .text{
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .info{
+        display: flex;
+        height: 73vh;
+        justify-content: space-around;
+        
+    }
+    .cajahorizontalblanca{
+        display: flex;
+        align-content: space-around;
+        background-color:#ffffff ;
+        color: rgb(0, 0, 0);
+        text-align: justify;
+        padding: 13px;
+        width:450px;
+        font-size: 15px;
+        
+    }
+    .cajahorizontal{
+        display: flex;
+        align-content: space-around;
+        background-color:#35424a ;
+        color: white;
+        text-align: justify;
+        padding: 13px;
+        width:450px;
+        font-size: 15px;
+        
+    }
+    .imgNosotros{
+        width: 450px;
+        height: 154px;
+    }
+    .gris{
+        background-color: rgb(231, 231, 231);
+        color: black;
+        padding: 15px;
+        width: 68%;
+    }
+
+    .img{
+        width: 82%;
+    }
+
+    .derecha2{
+        background-color: rgb(53, 66, 74);
+        color: white;
+        padding: 12px;
+        width: 270px;
+        height: 278px;
+        text-align: justify;
+    }
+    .derecha1{
+        background-color: rgb(53, 66, 74);
+        color: white;
+        padding: 15px;
+    }
+    .formulario input{
+        width: 330px;
+        height: 44px;
+    }
+    textarea{
+        width: 337px;
+        height: 100px;
+    }
+    .formulario button {
+        width: 114%;
+    }
+    .enviar{
+        text-align: center;
+        color: white;
+        background-color: rgb(232, 73, 29);
+        width: 595px;
+        height: 43px;
+        border: none;
+    }
+    
+    .QH{
+        background-color: rgb(53, 66, 74);
+        color: white;
+        padding: 15px;
+        font-size: 14px;
+        width: 297px;
+        height: 205px;
+    }
+
+    .ubi img{
+        width: 297px;
+        height: 269px;
+
+    }
+
+    .oscuro{
+        background-color: rgb(53, 66, 74);
+        color: white;
+        padding: 15px;
+        width: 82%;
+    }
+
+
+}
+
+
+@media(max-width:450px){
+    h1{
+        
+        text-align:center;
+        font-size: 18px;
+        
+    }
+
+    body{
+        font-family:  'Roboto', sans-serif;
+        font-size: 11px;
+    }
+    
+    header{
+        display: flex;
+        background-color: #24282b;
+        color: white;
+        border-bottom: 4px solid #1293D4 ;
+        height: 73px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+   
+    nav ul{
+        width: 253px;
+        font-size: 11px;
+        
+    }
+    section{
+        display: flex;
+        background: url(../images/cabecera.jpg) 0 -400px;
+        flex-direction: column;
+        height: 144px;
+        font-size: 13px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .cajahorizontalblanca{
+        display: flex;
+        align-content: space-around;
+        background-color:#ffffff ;
+        color: rgb(0, 0, 0);
+        text-align: justify;
+        padding: 5px;
+        width:378px;
+        height: 200px;
+        font-size: 13px;
+        
+    }
+    img{
+        width: 85px;
+        height: 86px;
+    }
+
+    .imgNosotros {
+        width: 374px;
+        height: 143px;
+    }
+    footer{
+        display: flex;
+        background-color:#1293D4  ;
+        color: white;
+        height: 63px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .texto{
+        font-size: 32px;
+        color: white;
+    }
+    /*  */
+    .ContenedorMedio{
+        display: flex;
+        background-color:#24282b;
+        color: white;
+        height: 55px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 8px;
+    }
+
+    .ContenedorMediobajo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 59vh;
+        text-align: center;
+        font-size: 11px;
+        
+    }
+    .buttom{
+        color:white;
+        background-color: rgb(241, 75, 46);
+        border: none;
+        height: 22px;
+        width: 66px;
+        font-size: 11px;
+    }
+    .buttom2{
+        color:white;
+        background-color: rgb(241, 75, 46);
+        border: none;
+        height: 34px;
+        width: 752px;
+    }
+    
+    
+    .formulario input {
+    width: 322px;
+    height: 20px;
+    }
+    .formulario button {
+        width: 73%;
+    }
+    .formulario {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    textarea {
+        width: 73%;
+        height: 56px;
+    }
+    .contenedor{
+        height: 26px;
+        width: 124px;
+        font-size: 11px;
+    }
+
+    .contenedor1{
+        height: 45px;
+        width: 752px;
+    }
+
+    .text{
+        
+        padding: 13px;
+        font-size: 17px;
+        text-align: justify;
+    }
+    .cajahorizontal{
+        display: flex;
+        align-content: space-around;
+        background-color:#35424a ;
+        color: white;
+        text-align: justify;
+        padding: 5px;
+        width: 375px;
+        font-size: 13px;
+        
+    }
+
+
+    aside{
+        width: 418px;
+        height: 248px;
+        padding: 18px;
+        background-color: #35424a;
+        color: white;
+        font-size: 17px;
+    }
+    .titulo_imagen{
+        font-size: 80px;
+    }
+
+    .suscribete{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 28px;
+        color: white;
+        border: 1px solid rgb(36, 40, 43);
+        height: 94px;
+        background-color: rgb(36, 40, 43);
+    }
+
+    .gris{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        background-color: rgb(231, 231, 231);
+        color: black;
+        padding: 5px;
+        width: 90%;
+        height: 154px;
+        margin: 0 20px;
+        font-size: 14px;
+    }
+
+    .derecha{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: white;
+        padding: 15px;
+    }
+    .derecha1{
+        background-color: rgb(53, 66, 74);
+        color: white;
+        padding: 6px;
+        font-size: 12px;
+        width: 240px;
+        height: 144px;
+        margin-top: 10px;
+    }
+    .derecha2{
+        background-color: rgb(53, 66, 74);
+        color: white;
+        padding: 15px;
+    }
+    .borde_header{
+        width: 100%;
+        height: 5px;
+        background-color: rgb(18, 147, 212);
+    }
+    .titulo_imagen{
+        font-size: 80px;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: auto;
+        padding: 0%;
+        margin: 10px;
+    }
+
+    .input input{
+
+        width:312px;
+        height: 25px;
+    }
+
+    .mensaje input{
+        height: 60px;
+        width: 310px;
+
+    }
+    .enviar{
+        text-align: center;
+        color: white;
+        background-color: rgb(232, 73, 29);
+        width: 306px;
+        height: 24px;
+        border: none;
+    }
+
+
+    .QH{
+        background-color: rgb(53, 66, 74);
+        color: white;
+        padding: 10px;
+        font-size: 13px;
+        width: 208px;
+        height: 233px;
+    }
+
+    .ubi img{
+        width: 213px;
+        height: 210px;
+
+    }
+
+    .oscuro{
+        background-color: rgb(53, 66, 74);
+        color: white;
+        padding: 15px;
+        width: 76%;
+    }
+
+    .img{
+        width: 79%;
+    
+    }
+
+    .izquierda{
+        margin: 0%;
+    }
+}
+
+ 
